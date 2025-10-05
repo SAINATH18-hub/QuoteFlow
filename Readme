@@ -1,0 +1,40 @@
+# 🌟 Aura: Daily Mood Tracker & Analyzer
+
+Aura is a modern, single-page application designed to help users track their daily emotional state, receive personalized motivational quotes, and analyze long-term mood patterns.
+
+Built using **HTML, Tailwind CSS, and pure JavaScript**, the application simulates a robust backend environment using a **Mock Database Layer** (`database.js`) and **localStorage** for persistent user authentication, mood history, and settings management.
+
+## ✨ Key Features
+
+* **Secure Mock Authentication:** Users can register and log in, with data (username, password, settings, and history) persisted securely in the browser's `localStorage` (simulating a real database connection).
+* **Daily Mood Logging:** Simple, one-click logging using emoji buttons (Happy, Sad, Motivated, etc.).
+* **Personalized Quotes:** Immediately provides a motivational quote based on the user's logged mood.
+* **Advanced Data Visualization:** Utilizes **Chart.js** to display mood frequency analysis, weekly vibes, and a 35-day mood heatmap.
+* **Email Scheduler:** Allows users to "schedule" daily or weekly quotes, demonstrating a feature typically managed by a database-connected backend service.
+* **Customizable UI:** Users can personalize the theme (dark/light/auto) and primary accent color.
+* **Data Management:** Functionality for exporting mood history to CSV and clearing all user data.
+
+## 🛠️ Technologies Used
+
+* **Frontend:** HTML5, CSS3, Pure JavaScript (ES6+)
+* **Styling:** Tailwind CSS (via CDN)
+* **Data Visualization:** Chart.js
+* **Data Persistence:** Browser `localStorage` (via a custom `database.js` Mock API)
+
+## 🚀 Getting Started
+
+Since Aura is a client-side application with no real server-side dependencies, you can run it immediately in any modern web browser.
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [Your Repository URL]
+    ```
+2.  **Open the project folder:**
+    ```bash
+    cd aura-mood-tracker
+    ```
+3.  **Open `index.html`** in your web browser (e.g., double-click the file).
+4.  **Log in** with the pre-configured **demo user:**
+    * **Username:** `demo`
+    * **Password:** `password`
+    * *Or, register a new user!*
